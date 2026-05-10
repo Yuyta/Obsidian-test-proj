@@ -190,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 473.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,11 +206,12 @@
   },
   "active": "533fe050349dca5b",
   "lastOpenFiles": [
+    "技術知見DB/MLOPs.md",
     "MLOPs学習内容/MLOPs基礎.md",
+    "Feature Store.md",
     "技術知見DB/VLA_VLM.md",
     "MLOPs学習内容",
     "技術知見DB/PhysicalAI_Robotics.md",
-    "技術知見DB/MLOPs.md",
     "技術知見DB/Autonomous_Driving.md",
     "技術知見DB/AI_Trends.md",
     "技術知見DB/AI_Agent.md",
@@ -232,7 +233,6 @@
     "docs/design.md",
     "docs/agent_mission.md",
     "Research/Inbox/2023_共有型自動運転車両導入による都市構造の変化および社会的便益に関する研究.md",
-    "Research/Inbox/2025_Cosmos World Foundation Model Platform for Physica.md",
     "scripts/research_bot.py",
     "scripts",
     "Research/Inbox",
