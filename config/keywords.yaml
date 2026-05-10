@@ -1,0 +1,14 @@
+keywords:
+  - "AI"
+  - "AI Agent"
+  - "Vision Language Model"
+  - "Physical AI"
+  - "フィジカルAI"
+  - "自動運転"
+  - "ロボティクス"
+  - "MLOps"
+
+search_limit_per_keyword: 5
+lookback_days: 7
+output_dir: "Research/Inbox"
+semantic_scholar_api_url: "https://api.semanticscholar.org/graph/v1/paper/search"
