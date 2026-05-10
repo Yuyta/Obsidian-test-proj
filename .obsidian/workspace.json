@@ -11,10 +11,14 @@
             "id": "533fe050349dca5b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "グラフビュー"
+              "type": "markdown",
+              "state": {
+                "file": "MLOPs学習内容/MLOPs基礎.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MLOPs基礎"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "MLOPs学習内容/MLOPs基礎.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "バックリンク"
+              "title": "MLOPs基礎へのバックリンク"
             }
           },
           {
@@ -169,6 +174,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "745dbc958aca33cf",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
         "currentTab": 5
@@ -189,14 +204,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8e3a48a015e2d2a5",
+  "active": "533fe050349dca5b",
   "lastOpenFiles": [
-    "技術知見DB/AI_Trends.md",
-    "技術知見DB/MLOPs.md",
-    "技術知見DB/AI_Agent.md",
-    "技術知見DB/Autonomous_Driving.md",
+    "MLOPs学習内容/MLOPs基礎.md",
     "技術知見DB/VLA_VLM.md",
+    "MLOPs学習内容",
     "技術知見DB/PhysicalAI_Robotics.md",
+    "技術知見DB/MLOPs.md",
+    "技術知見DB/Autonomous_Driving.md",
+    "技術知見DB/AI_Trends.md",
+    "技術知見DB/AI_Agent.md",
     "Research/Inbox/2026_A Versatile AI Agent for Rare Disease Diagnosis an.md",
     "Research/Inbox/2026_Caution Ahead Numerical Reasoning and Look‐Ahead .md",
     "Research/Inbox/2026_Celldetective an AI-enhanced image analysis tool .md",
@@ -216,7 +233,6 @@
     "docs/agent_mission.md",
     "Research/Inbox/2023_共有型自動運転車両導入による都市構造の変化および社会的便益に関する研究.md",
     "Research/Inbox/2025_Cosmos World Foundation Model Platform for Physica.md",
-    "Research/Inbox/2020_From local explanations to global understanding wi.md",
     "scripts/research_bot.py",
     "scripts",
     "Research/Inbox",
@@ -225,7 +241,6 @@
     "config",
     "requirements.txt",
     "docs",
-    "とりあえず後でみたいやつ",
-    "技術知見DB"
+    "とりあえず後でみたいやつ"
   ]
 }
