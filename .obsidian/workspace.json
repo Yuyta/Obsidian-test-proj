@@ -4,26 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "f56f94860134ebed",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "123fb5e18f393500",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/requirements.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "requirements"
-            }
-          }
-        ]
-      },
-      {
         "id": "f619d1d255217234",
         "type": "tabs",
         "children": [
@@ -31,14 +11,10 @@
             "id": "533fe050349dca5b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Research/Inbox/2026_A Versatile AI Agent for Rare Disease Diagnosis an.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026_A Versatile AI Agent for Rare Disease Diagnosis an"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "グラフビュー"
             }
           }
         ]
@@ -114,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技術知見DB/MLOPs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "MLOPsへのバックリンク"
+              "title": "バックリンク"
             }
           },
           {
@@ -184,13 +159,23 @@
               "icon": "lucide-list",
               "title": "MLOPsのアウトライン"
             }
+          },
+          {
+            "id": "0c2111410a2c4aaf",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,34 +189,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "533fe050349dca5b",
+  "active": "8e3a48a015e2d2a5",
   "lastOpenFiles": [
+    "技術知見DB/AI_Trends.md",
     "技術知見DB/MLOPs.md",
+    "技術知見DB/AI_Agent.md",
+    "技術知見DB/Autonomous_Driving.md",
+    "技術知見DB/VLA_VLM.md",
+    "技術知見DB/PhysicalAI_Robotics.md",
+    "Research/Inbox/2026_A Versatile AI Agent for Rare Disease Diagnosis an.md",
+    "Research/Inbox/2026_Caution Ahead Numerical Reasoning and Look‐Ahead .md",
+    "Research/Inbox/2026_Celldetective an AI-enhanced image analysis tool .md",
+    "Research/Inbox/2026_Generative AI Use by Capital Market Information In.md",
+    "Research/Inbox/2026_Leveraging Artificial Intelligence (AI) to Strengt.md",
+    "Research/Inbox/2026_Origin-1 a generative AI platform for de novo ant.md",
+    "Embodied AI.md",
+    "docs/obsidian_git_settings.md",
     "Research/Inbox/2017_バイオ・ライフとナノテク・材料の融合領域 2.分子レベル 2.1 分子ロボティクス.md",
     "Research/Inbox/2019_安心ロボティクス（Robotics for Safety and Security）.md",
     "Research/Inbox/2019_人力ロボティクス（Human-Powered Robotics）.md",
     "Research/Inbox/2023_自動運転に対して乗員の抱く不安感と乗員の運転特性の関連性.md",
     "Research/Inbox/2024_自動運転に関する分野横断型研究会企画(2024年度年次大会).md",
-    "Research/Inbox/2026_A Versatile AI Agent for Rare Disease Diagnosis an.md",
-    "Research/Inbox/2026_Caution Ahead Numerical Reasoning and Look‐Ahead .md",
-    "Research/Inbox/2026_Celldetective an AI-enhanced image analysis tool .md",
-    "Research/Inbox/2026_Generative AI Use by Capital Market Information In.md",
-    "Research/Inbox/2026_Origin-1 a generative AI platform for de novo ant.md",
     "Research/Inbox/2025_VLA_Trends_Analysis.md",
-    "Research/Inbox/2026_Leveraging Artificial Intelligence (AI) to Strengt.md",
-    "Embodied AI.md",
     "docs/requirements.md",
     "docs/design.md",
     "docs/agent_mission.md",
     "Research/Inbox/2023_共有型自動運転車両導入による都市構造の変化および社会的便益に関する研究.md",
     "Research/Inbox/2025_Cosmos World Foundation Model Platform for Physica.md",
     "Research/Inbox/2020_From local explanations to global understanding wi.md",
-    "Research/Inbox/2019_Explainable Artificial Intelligence (XAI) Concept.md",
-    "Research/Inbox/2024_自動運転技術はコミュニティのインフラとなるか.md",
-    "Research/Inbox/2021_Changes in 5G  Post 5G Social Implementation and .md",
-    "Research/Inbox/2022_Wireless Link Quality Prediction Using Physical Sp.md",
-    "Research/Inbox/2023_Qwen-VL A Frontier Large Vision-Language Model wi.md",
-    "Research/Inbox/2023_Qwen-VL A Versatile Vision-Language Model for Und.md",
     "scripts/research_bot.py",
     "scripts",
     "Research/Inbox",
