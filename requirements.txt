@@ -2,3 +2,6 @@ requests
 pyyaml
 python-frontmatter
 pydantic
+feedparser
+yt-dlp
+google-generativeai

@@ -11,14 +11,20 @@
 ## スコープ
 - **論文調査**: Semantic Scholar APIを利用した自動収集。
 - **市場動向調査**: ChatGPT, Gemini, NotebookLMからのインプット統合。
+- **YouTube調査**: 特定チャンネルの新着動画の自動要約と保存。
 - **知識整理**: InboxからResearch、さらにSynthesis（考察）への昇華プロセス。
 - **自動化**: GitHub Actionsによる定期実行。
 
 ## 機能要件
 - **検索機能**: 指定したキーワードに基づき最新の論文を検索する（Semantic Scholar API）。
 - **外部インプット統合**: ChatGPTやGeminiからの出力を `knowledge/inbox/` 配下の適切なフォルダに格納する。
+- **YouTube連携**:
+    - RSSフィードによる新着動画検知。
+    - `yt-dlp` による字幕取得。
+    - Gemini APIによる自動要約。
 - **Obsidian連携**:
     - 論文: `knowledge/inbox/academic_papers/`
+    - YouTube要約: `knowledge/inbox/youtube/`
     - 市場動向: `knowledge/inbox/chatgpt/`, `knowledge/inbox/gemini/` 等
 - **重複排除**: 既にVault内に存在する論文はスキップする。
 - **定期実行**: 論文調査を週次で自動実行する。

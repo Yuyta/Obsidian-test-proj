@@ -3,12 +3,13 @@
 ## システム構成
 1. **Paper Collector (Automated)**: PythonスクリプトによるSemantic Scholar API連携。GitHub Actionsで定期実行。
 2. **Trend Integrator (Manual/Semi-Auto)**: ChatGPT, Gemini等の調査結果を `knowledge/inbox/` に手動またはプロンプト経由で統合。
-3. **Agent Deep-Dive (Interactive)**: Antigravity Agentを使い、特定の情報をブラウザで深掘り調査。
+3. **YouTube Summarizer (Automated)**: YouTube RSSフィードを監視し、字幕をAI要約。
+4. **Agent Deep-Dive (Interactive)**: Antigravity Agentを使い、特定の情報をブラウザで深掘り調査。
 
 ## 技術スタック
 - **言語**: Python 3.10+
-- **API**: Semantic Scholar API
-- **ライブラリ**: `requests`, `python-frontmatter` (Markdown操作), `PyYAML`
+- **API**: Semantic Scholar API, Gemini API
+- **ライブラリ**: `requests`, `python-frontmatter`, `PyYAML`, `feedparser`, `yt-dlp`, `google-generativeai`
 - **自動化**: GitHub Actions
 
 ## アーキテクチャ
@@ -45,6 +46,8 @@ tags: ["paper", "automated-research"]
     - 複数の情報を元に `synthesis/` でトレンド分析や戦略を執筆。
 
 ## パス構成
-- スクリプト: `knowledge/scripts/research_bot.py`
-- 設定ファイル: `knowledge/config/keywords.yaml`
+- スクリプト (YouTube): `knowledge/scripts/youtube_summarizer.py`
+- 設定ファイル (キーワード): `knowledge/config/keywords.yaml`
+- 設定ファイル (YouTube): `knowledge/config/youtube_channels.yaml`
 - 出力先 (論文): `knowledge/inbox/academic_papers/`
+- 出力先 (YouTube): `knowledge/inbox/youtube/`

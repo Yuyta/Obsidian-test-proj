@@ -206,6 +206,8 @@
   },
   "active": "533fe050349dca5b",
   "lastOpenFiles": [
+    "knowledge/scripts/youtube_summarizer.py",
+    "knowledge/config/youtube_channels.yaml",
     "knowledge/inbox/notebooklm/Claude_Code_Harness_Engineering.pdf",
     "knowledge/inbox/notebooklm/AWS_SAA-C03_Visual_Cheat_Sheet.pdf",
     "knowledge/inbox/notebooklm/無題のファイル.md",
@@ -239,8 +241,6 @@
     "scripts/research_bot.py",
     "scripts",
     "config/keywords.yaml",
-    "config",
-    "requirements.txt",
-    "docs"
+    "config"
   ]
 }
