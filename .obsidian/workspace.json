@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "knowledge/inbox/gemini/2026年5月調査分.md",
+                "file": "knowledge/inbox/notebooklm/無題のファイル.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026年5月調査分"
+              "title": "無題のファイル"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 414.5
   },
   "right": {
     "id": "bdac007b518a6eda",
@@ -206,9 +206,19 @@
   },
   "active": "533fe050349dca5b",
   "lastOpenFiles": [
+    "knowledge/inbox/notebooklm/Claude_Code_Harness_Engineering.pdf",
+    "knowledge/inbox/notebooklm/AWS_SAA-C03_Visual_Cheat_Sheet.pdf",
+    "knowledge/inbox/notebooklm/無題のファイル.md",
+    "knowledge/inbox/notebooklm/データエンジニアリング.md",
+    "knowledge/research/tech_notes/AI_Agent.md",
+    "knowledge/research/tech_notes/AI_Trends.md",
+    "knowledge/research/tech_notes/Autonomous_Driving.md",
+    "knowledge/research/tech_notes/MLOPs.md",
+    "knowledge/research/tech_notes/PhysicalAI_Robotics.md",
+    "knowledge/research/tech_notes/VLA_VLM.md",
+    "knowledge/inbox/gemini/2026年5月調査分.md",
     "knowledge/inbox/gemini/2026年4月調査分.md",
     "knowledge/inbox/chatgpt/2026年5月調査分.md",
-    "knowledge/inbox/gemini/2026年5月調査分.md",
     "knowledge/inbox/chatgpt/2026年4月調査分.md",
     "knowledge/inbox/academic_papers/2026_Origin-1 a generative AI platform for de novo ant.md",
     "knowledge/inbox/academic_papers/2026_Leveraging Artificial Intelligence (AI) to Strengt.md",
@@ -223,24 +233,14 @@
     "knowledge/inbox/academic_papers/2017_バイオ・ライフとナノテク・材料の融合領域 2.分子レベル 2.1 分子ロボティクス.md",
     "docs/design.md",
     "docs/agent_mission.md",
-    "Research/Inbox/2026_SymptomAI Towards a Conversational AI Agent for E.md",
-    "Research/Inbox/2026_Cryptographic Registry Provenance Structural Defe.md",
-    "Research/Inbox/2026_AgentTrust Runtime Safety Evaluation and Intercep.md",
-    "Research/Inbox/2026_Authorization Propagation in Multi-Agent AI System.md",
-    "Research/Inbox/2026_A Compound AI Agent for Conversational Grant Disco.md",
     "Research/Inbox",
     "Research",
-    "技術知見DB/MLOPs.md",
-    "MLOPs学習内容/MLOPs基礎.md",
-    "Feature Store.md",
-    "技術知見DB/VLA_VLM.md",
     "MLOPs学習内容",
     "scripts/research_bot.py",
     "scripts",
     "config/keywords.yaml",
     "config",
     "requirements.txt",
-    "docs",
-    "とりあえず後でみたいやつ"
+    "docs"
   ]
 }
