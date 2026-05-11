@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "knowledge/archive/2026年4月調査分.md",
+                "file": "knowledge/inbox/chatgpt/車載開発プロセス基礎.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026年4月調査分"
+              "title": "車載開発プロセス基礎"
             }
           }
         ]
@@ -206,6 +206,8 @@
   },
   "active": "533fe050349dca5b",
   "lastOpenFiles": [
+    "knowledge/archive/2026年4月調査分.md",
+    "knowledge/inbox/chatgpt/車載開発プロセス基礎.md",
     "knowledge/archive/2026年4月調査分_20260511233203.md",
     "knowledge/archive/2026年5月調査分.md",
     "knowledge/archive/2026年5月調査分_20260511233203.md",
@@ -223,7 +225,6 @@
     "knowledge/research/tech_notes/Autonomous_Driving.md",
     "knowledge/research/tech_notes/AI_Trends.md",
     "knowledge/research/tech_notes/AI_Agent.md",
-    "knowledge/archive/2026年4月調査分.md",
     "knowledge/inbox/notebooklm/無題のファイル.md",
     "knowledge/archive/データエンジニアリング.md",
     "knowledge/archive/Claude_Code_Playbook.pdf",
@@ -236,7 +237,6 @@
     "knowledge/archive/2026_Generative AI Use by Capital Market Information In.md",
     "knowledge/archive/2026_Celldetective an AI-enhanced image analysis tool .md",
     "knowledge/archive/2026_Caution Ahead Numerical Reasoning and Look‐Ahead .md",
-    "knowledge/archive/2026_A Versatile AI Agent for Rare Disease Diagnosis an.md",
     "knowledge/archive",
     "knowledge/inbox/notebooklm/Claude_Code_Playbook.pdf",
     "knowledge/inbox/notebooklm/AI_Agent_Harness_Engineering.pdf",
