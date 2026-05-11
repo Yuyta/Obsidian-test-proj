@@ -1,21 +1,26 @@
-# 設計書 - 論文調査自動化
+# 設計書 - 知識管理・調査自動化システム
 
 ## システム構成
-1. **Agent Deep-Dive (Interactive)**: Antigravityのブラウザ操作機能を使い、手動で指示を出して深掘りする。
-2. **Scheduled Collector (Automated)**: PythonスクリプトによるAPI連携。GitHub Actionsで定期実行し、結果をGit経由または直接Vaultに書き込む。
+1. **Paper Collector (Automated)**: PythonスクリプトによるSemantic Scholar API連携。GitHub Actionsで定期実行。
+2. **Trend Integrator (Manual/Semi-Auto)**: ChatGPT, Gemini等の調査結果を `knowledge/inbox/` に手動またはプロンプト経由で統合。
+3. **Agent Deep-Dive (Interactive)**: Antigravity Agentを使い、特定の情報をブラウザで深掘り調査。
 
 ## 技術スタック
 - **言語**: Python 3.10+
-- **API**: Semantic Scholar API, Arxiv API
-- **ライブラリ**: `requests`, `pydantic` (データ構造), `python-frontmatter` (Markdown操作)
+- **API**: Semantic Scholar API
+- **ライブラリ**: `requests`, `python-frontmatter` (Markdown操作), `PyYAML`
 - **自動化**: GitHub Actions
 
 ## アーキテクチャ
-- **Collector**: 検索キーワードを基に論文一覧を取得。
-- **Parser**: 取得したデータをObsidian向けのMarkdownに変換。
-- **Store**: 重複チェックを行い、ファイルを書き出し。
+- **Collector**: `knowledge/config/keywords.yaml` からキーワードを取得し、論文を検索。
+- **Integrator**: 市場動向等の外部知見を構造化Markdownとして整理。
+- **Refinement Process**: 
+    - `inbox/` (未整理) 
+    - → `research/` (カテゴリ分類・要約)
+    - → `synthesis/` (横断考察・戦略策定)
 
 ## データ設計 (Obsidian Frontmatter)
+### 論文データ
 ```yaml
 ---
 title: "論文タイトル"
@@ -24,18 +29,22 @@ year: 2026
 doi: "10.xxx/xxx"
 url: "https://..."
 status: "Inbox"
-tags: ["paper", "mlops"]
+tags: ["paper", "automated-research"]
 ---
-# Summary
-...
 ```
 
 ## 処理フロー
-1. `config.yaml`から検索キーワードを取得。
-2. APIを叩いて最新N件の情報を取得。
-3. Vault内の既存ファイルの`doi`または`url`をチェックして重複排除。
-4. Markdownファイルを生成し、`Research/Inbox/`に保存。
+1. **論文収集**:
+    - `knowledge/scripts/research_bot.py` を実行。
+    - APIから最新論文を取得し、重複チェック。
+    - `knowledge/inbox/academic_papers/` に保存。
+2. **市場動向統合**:
+    - ChatGPT等の出力をコピー、またはAgentに依頼して `knowledge/inbox/chatgpt/` 等に保存。
+3. **知識の昇華**:
+    - 定期的に `inbox/` を確認し、有用な情報を `research/` の各分野（mlops, robotics等）へ移動・整理。
+    - 複数の情報を元に `synthesis/` でトレンド分析や戦略を執筆。
 
-## エラーハンドリング
-- APIのレートリミット到達時はリトライまたは待機。
-- ネットワークエラー時はログを出力して終了。
+## パス構成
+- スクリプト: `knowledge/scripts/research_bot.py`
+- 設定ファイル: `knowledge/config/keywords.yaml`
+- 出力先 (論文): `knowledge/inbox/academic_papers/`

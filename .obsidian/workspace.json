@@ -11,10 +11,14 @@
             "id": "533fe050349dca5b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "knowledge/inbox/gemini/2026年5月調査分.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新規タブ"
+              "title": "2026年5月調査分"
             }
           }
         ]
@@ -186,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 473.5
+    "width": 376.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,37 +206,37 @@
   },
   "active": "533fe050349dca5b",
   "lastOpenFiles": [
+    "knowledge/inbox/gemini/2026年4月調査分.md",
+    "knowledge/inbox/chatgpt/2026年5月調査分.md",
+    "knowledge/inbox/gemini/2026年5月調査分.md",
+    "knowledge/inbox/chatgpt/2026年4月調査分.md",
+    "knowledge/inbox/academic_papers/2026_Origin-1 a generative AI platform for de novo ant.md",
+    "knowledge/inbox/academic_papers/2026_Leveraging Artificial Intelligence (AI) to Strengt.md",
+    "knowledge/inbox/academic_papers/2026_Generative AI Use by Capital Market Information In.md",
+    "knowledge/inbox/academic_papers/2026_Celldetective an AI-enhanced image analysis tool .md",
+    "knowledge/inbox/academic_papers/2026_Caution Ahead Numerical Reasoning and Look‐Ahead .md",
+    "knowledge/inbox/academic_papers/2025_VLA_Trends_Analysis.md",
+    "knowledge/inbox/academic_papers/2023_自動運転に対して乗員の抱く不安感と乗員の運転特性の関連性.md",
+    "knowledge/inbox/academic_papers/2023_共有型自動運転車両導入による都市構造の変化および社会的便益に関する研究.md",
+    "knowledge/inbox/academic_papers/2019_人力ロボティクス（Human-Powered Robotics）.md",
+    "knowledge/inbox/academic_papers/2019_安心ロボティクス（Robotics for Safety and Security）.md",
+    "knowledge/inbox/academic_papers/2017_バイオ・ライフとナノテク・材料の融合領域 2.分子レベル 2.1 分子ロボティクス.md",
+    "docs/design.md",
+    "docs/agent_mission.md",
+    "Research/Inbox/2026_SymptomAI Towards a Conversational AI Agent for E.md",
+    "Research/Inbox/2026_Cryptographic Registry Provenance Structural Defe.md",
+    "Research/Inbox/2026_AgentTrust Runtime Safety Evaluation and Intercep.md",
+    "Research/Inbox/2026_Authorization Propagation in Multi-Agent AI System.md",
+    "Research/Inbox/2026_A Compound AI Agent for Conversational Grant Disco.md",
+    "Research/Inbox",
+    "Research",
     "技術知見DB/MLOPs.md",
     "MLOPs学習内容/MLOPs基礎.md",
     "Feature Store.md",
     "技術知見DB/VLA_VLM.md",
     "MLOPs学習内容",
-    "技術知見DB/PhysicalAI_Robotics.md",
-    "技術知見DB/Autonomous_Driving.md",
-    "技術知見DB/AI_Trends.md",
-    "技術知見DB/AI_Agent.md",
-    "Research/Inbox/2026_A Versatile AI Agent for Rare Disease Diagnosis an.md",
-    "Research/Inbox/2026_Caution Ahead Numerical Reasoning and Look‐Ahead .md",
-    "Research/Inbox/2026_Celldetective an AI-enhanced image analysis tool .md",
-    "Research/Inbox/2026_Generative AI Use by Capital Market Information In.md",
-    "Research/Inbox/2026_Leveraging Artificial Intelligence (AI) to Strengt.md",
-    "Research/Inbox/2026_Origin-1 a generative AI platform for de novo ant.md",
-    "Embodied AI.md",
-    "docs/obsidian_git_settings.md",
-    "Research/Inbox/2017_バイオ・ライフとナノテク・材料の融合領域 2.分子レベル 2.1 分子ロボティクス.md",
-    "Research/Inbox/2019_安心ロボティクス（Robotics for Safety and Security）.md",
-    "Research/Inbox/2019_人力ロボティクス（Human-Powered Robotics）.md",
-    "Research/Inbox/2023_自動運転に対して乗員の抱く不安感と乗員の運転特性の関連性.md",
-    "Research/Inbox/2024_自動運転に関する分野横断型研究会企画(2024年度年次大会).md",
-    "Research/Inbox/2025_VLA_Trends_Analysis.md",
-    "docs/requirements.md",
-    "docs/design.md",
-    "docs/agent_mission.md",
-    "Research/Inbox/2023_共有型自動運転車両導入による都市構造の変化および社会的便益に関する研究.md",
     "scripts/research_bot.py",
     "scripts",
-    "Research/Inbox",
-    "Research",
     "config/keywords.yaml",
     "config",
     "requirements.txt",
