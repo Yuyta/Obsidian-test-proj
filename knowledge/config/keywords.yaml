@@ -10,5 +10,5 @@ keywords:
 
 search_limit_per_keyword: 5
 lookback_days: 7
-output_dir: "Research/Inbox"
+output_dir: "knowledge/inbox/academic_papers"
 semantic_scholar_api_url: "https://api.semanticscholar.org/graph/v1/paper/search"

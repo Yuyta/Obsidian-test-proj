@@ -26,12 +26,12 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run research bot
-        run: python scripts/research_bot.py
+        run: python knowledge/scripts/research_bot.py
 
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add Research/Inbox/*.md
+          git add knowledge/inbox/academic_papers/*.md
           git commit -m "docs: auto-add new papers [skip ci]" || echo "No changes to commit"
           git push

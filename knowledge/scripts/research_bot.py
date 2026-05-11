@@ -81,14 +81,22 @@ def save_paper_as_md(paper, output_dir, keyword):
     print(f"Saved: {filename}")
 
 def main():
-    config = load_config("config/keywords.yaml")
+    # スクリプトの場所を基準に設定ファイルのパスを特定
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    vault_root = os.path.abspath(os.path.join(script_dir, "..", ".."))
+    config_path = os.path.join(script_dir, "..", "config", "keywords.yaml")
+    
+    config = load_config(config_path)
     keywords = config.get("keywords", [])
     limit = config.get("search_limit_per_keyword", 3)
     lookback_days = config.get("lookback_days", 7)
-    output_dir = config.get("output_dir", "Research/Inbox")
+    
+    # 出力先ディレクトリをVaultルートからの相対パスとして設定
+    rel_output_dir = config.get("output_dir", "knowledge/inbox/academic_papers")
+    output_dir = os.path.join(vault_root, rel_output_dir)
     
     if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
+        os.makedirs(output_dir, exist_ok=True)
 
     for kw in keywords:
         print(f"Searching for: {kw} (past {lookback_days} days)")
