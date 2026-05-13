@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "knowledge/research/tech_notes/PhysicalAI_Robotics.md",
+                "file": "knowledge/inbox/academic_papers/2026_A Compound AI Agent for Conversational Grant Disco.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PhysicalAI_Robotics"
+              "title": "2026_A Compound AI Agent for Conversational Grant Disco"
             }
           }
         ]
@@ -204,8 +204,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "533fe050349dca5b",
+  "active": "8e3a48a015e2d2a5",
   "lastOpenFiles": [
+    "knowledge/inbox/academic_papers/2026_SymptomAI Towards a Conversational AI Agent for E.md",
+    "knowledge/inbox/academic_papers/2026_A Compound AI Agent for Conversational Grant Disco.md",
+    "knowledge/inbox/chatgpt/車載開発プロセス基礎.md",
+    "knowledge/research/tech_notes/PhysicalAI_Robotics.md",
     "knowledge/research/tech_notes/MLOPs.md",
     "knowledge/research/tech_notes/data_engineering_fundamentals.md",
     "knowledge/research/tech_notes/cloud_and_agent_trends_2026.md",
@@ -213,9 +217,7 @@
     "knowledge/research/tech_notes/AI_Trends.md",
     "knowledge/research/tech_notes/AI_Agent.md",
     "knowledge/research/tech_notes/VLA_VLM.md",
-    "knowledge/research/tech_notes/PhysicalAI_Robotics.md",
     "knowledge/archive/2025_VLA_Trends_Analysis.md",
-    "knowledge/inbox/chatgpt/車載開発プロセス基礎.md",
     "knowledge/archive/2026年4月調査分.md",
     "knowledge/archive/2026年4月調査分_20260511233203.md",
     "knowledge/archive/2026年5月調査分.md",
@@ -235,8 +237,6 @@
     "knowledge/archive/Agentic_Web_Paradigm_Shift.pdf",
     "knowledge/archive/2026_Origin-1 a generative AI platform for de novo ant.md",
     "knowledge/archive/2026_Leveraging Artificial Intelligence (AI) to Strengt.md",
-    "knowledge/archive/2026_Generative AI Use by Capital Market Information In.md",
-    "knowledge/archive/2026_Celldetective an AI-enhanced image analysis tool .md",
     "knowledge/archive",
     "knowledge/inbox/notebooklm/Claude_Code_Playbook.pdf",
     "knowledge/inbox/notebooklm/AI_Agent_Harness_Engineering.pdf",
