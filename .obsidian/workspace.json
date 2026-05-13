@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "knowledge/research/tech_notes/data_engineering_fundamentals.md",
+                "file": "knowledge/research/tech_notes/PhysicalAI_Robotics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "data_engineering_fundamentals"
+              "title": "PhysicalAI_Robotics"
             }
           }
         ]
@@ -206,10 +206,14 @@
   },
   "active": "533fe050349dca5b",
   "lastOpenFiles": [
+    "knowledge/research/tech_notes/MLOPs.md",
+    "knowledge/research/tech_notes/data_engineering_fundamentals.md",
     "knowledge/research/tech_notes/cloud_and_agent_trends_2026.md",
     "knowledge/research/tech_notes/Autonomous_Driving.md",
     "knowledge/research/tech_notes/AI_Trends.md",
     "knowledge/research/tech_notes/AI_Agent.md",
+    "knowledge/research/tech_notes/VLA_VLM.md",
+    "knowledge/research/tech_notes/PhysicalAI_Robotics.md",
     "knowledge/archive/2025_VLA_Trends_Analysis.md",
     "knowledge/inbox/chatgpt/車載開発プロセス基礎.md",
     "knowledge/archive/2026年4月調査分.md",
@@ -222,10 +226,6 @@
     "knowledge/research/mlops/physical_ai_mlops.md",
     "knowledge/research/mlops/MLOPs基礎.md",
     "knowledge/research/market/market_trends_2026.md",
-    "knowledge/research/tech_notes/VLA_VLM.md",
-    "knowledge/research/tech_notes/PhysicalAI_Robotics.md",
-    "knowledge/research/tech_notes/MLOPs.md",
-    "knowledge/research/tech_notes/data_engineering_fundamentals.md",
     "knowledge/inbox/notebooklm/無題のファイル.md",
     "knowledge/archive/データエンジニアリング.md",
     "knowledge/archive/Claude_Code_Playbook.pdf",
