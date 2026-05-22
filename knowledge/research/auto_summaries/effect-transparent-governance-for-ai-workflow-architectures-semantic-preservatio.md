@@ -6,6 +6,13 @@ source:
 ---
 
 ---
+title: effect-transparent-governance-for-ai-workflow-architectures-semantic-preservatio
+authors: 
+year: 
+source: 
+---
+
+---
 title: 'Effect-Transparent Governance for AI Workflow Architectures: Semantic Preservation,
 authors: 年: 2026
 year: 

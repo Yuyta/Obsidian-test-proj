@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: 2026-robust-reliable-ai-predictive-quality-semiconductor-mlops
+authors: 
+year: 
+source: 
+---
+
+---
 title: Robust and Reliable AI for Predictive Quality in Semiconductor Materials Manufacturing with MLOps and Uncertainty Quantification
 authors: Mingtao Gao 他
 year: 2026

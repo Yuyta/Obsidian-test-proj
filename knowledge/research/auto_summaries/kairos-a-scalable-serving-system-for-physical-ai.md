@@ -6,6 +6,13 @@ source:
 ---
 
 ---
+title: kairos-a-scalable-serving-system-for-physical-ai
+authors: 
+year: 
+source: 
+---
+
+---
 title: 'Kairos: A Scalable Serving System for Physical AI'
 authors: 年: 2026
 year: 

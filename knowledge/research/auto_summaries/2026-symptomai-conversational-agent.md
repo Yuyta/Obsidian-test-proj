@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: 2026-symptomai-conversational-agent
+authors: 
+year: 
+source: 
+---
+
+---
 title: SymptomAI: 日常的症状アセスメントのための会話型AIエージェント
 authors: Joseph Breda 他
 year: 2026

@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: 2026-from-embodied-intelligence-to-physical-ai
+authors: 
+year: 
+source: 
+---
+
+---
 title: From embodied intelligence to physical AI
 authors: (未記載)
 year: 2026

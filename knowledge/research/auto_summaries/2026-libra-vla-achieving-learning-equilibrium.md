@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: 2026-libra-vla-achieving-learning-equilibrium
+authors: 
+year: 
+source: 
+---
+
+---
 title: Libra-VLA: Achieving Learning Equilibrium via Asynchronous Coarse-to-Fine Dual-System
 authors: Yifei Wei 他
 year: 2026

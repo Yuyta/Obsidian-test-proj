@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: 2026-one-token-per-frame-reconsidering-visual-bandwidth
+authors: 
+year: 
+source: 
+---
+
+---
 title: One Token Per Frame: Reconsidering Visual Bandwidth in World Models for VLA Policy
 authors: Mark Tang 他
 year: 2026

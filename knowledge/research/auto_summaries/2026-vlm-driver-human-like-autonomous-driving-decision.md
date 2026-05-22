@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: 2026-vlm-driver-human-like-autonomous-driving-decision
+authors: 
+year: 
+source: 
+---
+
+---
 title: VLM-Driver: Human-Like Autonomous Driving Decision-Making via Vision Language Model
 authors: Rui Zhao 他
 year: 2026

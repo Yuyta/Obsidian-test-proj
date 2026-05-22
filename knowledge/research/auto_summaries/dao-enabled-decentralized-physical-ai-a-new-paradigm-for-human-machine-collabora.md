@@ -6,6 +6,13 @@ source:
 ---
 
 ---
+title: dao-enabled-decentralized-physical-ai-a-new-paradigm-for-human-machine-collabora
+authors: 
+year: 
+source: 
+---
+
+---
 title: 'DAO-enabled decentralized physical AI: A new paradigm for human-machine collaboration'
 authors: 年: 2026
 year: 

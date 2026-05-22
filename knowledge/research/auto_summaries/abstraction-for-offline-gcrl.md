@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: abstraction-for-offline-gcrl
+authors: 
+year: 
+source: 
+---
+
+---
 title: Abstraction for Offline Goal-Conditioned Reinforcement Learning
 authors: Clarisse Wibault 他
 year: 2026

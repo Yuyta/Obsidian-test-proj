@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: 2026-kairos-scalable-serving-system-for-physical-ai
+authors: 
+year: 
+source: 
+---
+
+---
 title: Kairos: A Scalable Serving System for Physical AI
 authors: Yinwei Dai, Ganesh Ananthanarayanan, Landon P. Cox, Xenofon Foukas, B. Radunovic, Ravi Netravali
 year: 2026

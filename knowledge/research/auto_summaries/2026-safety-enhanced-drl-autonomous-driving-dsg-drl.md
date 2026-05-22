@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: 2026-safety-enhanced-drl-autonomous-driving-dsg-drl
+authors: 
+year: 
+source: 
+---
+
+---
 title: Safety-Enhanced Deep Reinforcement Learning for Autonomous Driving: DSG-DRL
 authors: Zhuoren Li 他
 year: 2026

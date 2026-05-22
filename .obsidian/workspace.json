@@ -11,14 +11,14 @@
             "id": "533fe050349dca5b",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "knowledge/research/mlops/MLOPs基礎.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "MLOPs基礎"
             }
           }
         ]
@@ -206,6 +206,9 @@
   },
   "active": "533fe050349dca5b",
   "lastOpenFiles": [
+    "knowledge/research/auto_summaries/pedestrian-crossing-intention-prediction-based-on-cross-modal-motion-query.md",
+    "knowledge/scripts/process_unprocessed_inbox.py",
+    "knowledge/scripts/check_inbox_by_source.py",
     "knowledge/scripts/check_inbox_processed_relaxed.py",
     "knowledge/scripts/check_inbox_processed.py",
     "knowledge/scripts/dedupe_summaries.py",
@@ -238,9 +241,6 @@
     "knowledge/research/auto_summaries/2026-the-two-boundaries-behavioral-ai-governance.md",
     "knowledge/research/auto_summaries",
     "knowledge/archive/academic_papers/_to_delete_preview",
-    "scripts/preview_delete_unrelated.py",
-    "scripts",
-    "knowledge/research/ai",
-    "knowledge/research/physical_ai"
+    "scripts/preview_delete_unrelated.py"
   ]
 }

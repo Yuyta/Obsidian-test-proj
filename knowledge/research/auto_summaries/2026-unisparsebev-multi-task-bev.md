@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: 2026-unisparsebev-multi-task-bev
+authors: 
+year: 
+source: 
+---
+
+---
 title: UniSparseBEV: A Multi-Task Learning Framework With Unified Sparse Query for Autonomous Driving
 authors: Hao Zhou 他
 year: 2026

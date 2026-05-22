@@ -6,6 +6,13 @@ source:
 ---
 
 ---
+title: agentsearchbench-a-benchmark-for-ai-agent-search-in-the-wild
+authors: 
+year: 
+source: 
+---
+
+---
 title: 'AgentSearchBench: A Benchmark for AI Agent Search in the Wild'
 authors: 年: 2026
 year: 

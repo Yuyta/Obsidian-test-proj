@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: 2026-onewm-vla-one-token-per-frame
+authors: 
+year: 
+source: 
+---
+
+---
 title: OneWM-VLA: One Token Per Frame for World Models in VLA Policies
 authors: Mark Tang 他
 year: 2026

@@ -1,22 +1,8 @@
 ---
-title: mindvla-u1-vla-beats-va-with-unified-streaming-architecture-for-autonomous
-authors: 
-year: 
-source: 
----
-
----
-title: mindvla-u1-vla-beats-va-with-unified-streaming-architecture-for-autonomous
-authors: 
-year: 
-source: 
----
-
----
-title: 'MindVLA-U1: VLA Beats VA with Unified Streaming Architecture for Autonomous
+title: Pedestrian Crossing Intention Prediction Based on Cross-Modal Motion Query
 authors: 年: 2026
 year: 
-source: 2026_MindVLA-U1 VLA Beats VA with Unified Streaming Ar.md
+source: 2026_Pedestrian Crossing Intention Prediction Based on .md
 ---
 
 概要:
@@ -37,5 +23,5 @@ source: 2026_MindVLA-U1 VLA Beats VA with Unified Streaming Ar.md
 要約は要旨に基づくものであり、実験詳細・補足は原著を参照してください。
 
 ## 関連ファイル
-- [[2026_MindVLA-U1 VLA Beats VA with Unified Streaming Ar]]
-- [ソースファイル](../archive/academic_papers/2026_MindVLA-U1 VLA Beats VA with Unified Streaming Ar.md)
+- [[2026_Pedestrian Crossing Intention Prediction Based on ]]
+- [ソースファイル](../archive/academic_papers/2026_Pedestrian Crossing Intention Prediction Based on .md)

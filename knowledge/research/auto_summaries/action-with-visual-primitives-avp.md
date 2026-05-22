@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: action-with-visual-primitives-avp
+authors: 
+year: 
+source: 
+---
+
+---
 title: Action with Visual Primitives（AVP）: 視覚プリミティブを用いた行動生成
 authors: Weilong Guo 他
 year: 2026

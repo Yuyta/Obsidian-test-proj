@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: 2026-geometry-guided-self-consistency-for-physical-ai
+authors: 
+year: 
+source: 
+---
+
+---
 title: Geometry Guided Self-Consistency for Physical AI
 authors: Yinwei Dai, Zhuofu Chen, Lijie Yang, Ravi Netravali
 year: 2026

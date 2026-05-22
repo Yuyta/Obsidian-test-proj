@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: 2026-what-to-ignore-what-to-react-visually-robust-rl-vla
+authors: 
+year: 
+source: 
+---
+
+---
 title: What to Ignore, What to React: Visually Robust RL Fine-Tuning of VLA Models
 authors: Yu Peng 他
 year: 2026

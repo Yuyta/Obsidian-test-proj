@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: 2026-realtime-vla-flash-speculative-inference-framework
+authors: 
+year: 
+source: 
+---
+
+---
 title: Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs
 authors: Jiahui Niu 他
 year: 2026

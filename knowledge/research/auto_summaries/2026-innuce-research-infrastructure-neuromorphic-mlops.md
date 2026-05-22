@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: 2026-innuce-research-infrastructure-neuromorphic-mlops
+authors: 
+year: 
+source: 
+---
+
+---
 title: The inNuCE Research Infrastructure and the Neuromorphic MLOps for AIoT Prototyping
 authors: Gianvito Urgese 他
 year: 2026

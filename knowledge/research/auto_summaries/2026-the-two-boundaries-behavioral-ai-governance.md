@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: 2026-the-two-boundaries-behavioral-ai-governance
+authors: 
+year: 
+source: 
+---
+
+---
 title: The Two Boundaries: Why Behavioral AI Governance Fails Structurally
 authors: Alan L. McCann
 year: 2026

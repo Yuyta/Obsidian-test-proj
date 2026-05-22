@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: 2026-why-are-agentic-pull-requests-merged-or-rejected
+authors: 
+year: 
+source: 
+---
+
+---
 title: Why Are Agentic Pull Requests Merged or Rejected? An Empirical Study
 authors: Sien Reeve O. Peralta 他
 year: 2026

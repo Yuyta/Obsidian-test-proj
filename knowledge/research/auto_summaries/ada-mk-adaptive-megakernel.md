@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: ada-mk-adaptive-megakernel
+authors: 
+year: 
+source: 
+---
+
+---
 title: Ada-MK: Ada向けAdaptive MegaKernel最適化（LLM推論向け自動DAG探索）
 authors: Wenxin Dong 他
 year: 2026

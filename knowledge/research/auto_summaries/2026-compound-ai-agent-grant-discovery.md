@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: 2026-compound-ai-agent-grant-discovery
+authors: 
+year: 
+source: 
+---
+
+---
 title: A Compound AI Agent for Conversational Grant Discovery（会話的研究資金探索のための複合AIエージェント）
 authors: Zhi–Bin Tang, M. Kejriwal
 year: 2026

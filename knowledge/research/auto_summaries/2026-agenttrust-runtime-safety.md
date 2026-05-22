@@ -13,6 +13,13 @@ source:
 ---
 
 ---
+title: 2026-agenttrust-runtime-safety
+authors: 
+year: 
+source: 
+---
+
+---
 title: AgentTrust: エージェントのツール利用におけるランタイム安全評価と介入
 authors: Chen Yang
 year: 2026
