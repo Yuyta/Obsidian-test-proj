@@ -1,0 +1,9 @@
+---
+title: "Agentic metasurface design with self-correcting language-model systems"
+authors: ['Bei Wu', 'Bo Xiong', 'Haiyao Luo', 'Yaqi Li', 'Li Zhang', 'Qiaolu Chen', 'Hongsheng Chen', 'Yihao Yang']
+published: 2026-05-21
+arxiv_id: 2605.22647v1
+url: https://arxiv.org/abs/2605.22647v1
+---
+
+Automated metasurface design is increasingly important, and recent advances in language-model systems are opening a route toward agentic optical design. Yet modern metasurface applications, from metalenses and holography to optical computing, require long design chains spanning modeling, simulation, coding, optimization and evaluation. These chains are error-prone, whereas existing language-model-based metasurface tools remain largely limited to simple objectives, predefined pipelines or language-to-layout generation. Here we introduce MetaDesigner, a self-correcting language-model system for agentic metasurface design. From a natural-language optical objective, MetaDesigner plans the design route, retrieves domain knowledge, invokes simulation and optimization tools, generates missing tool code and identifies errors through a dedicated Verifier. We demonstrate three tasks of increasing complexity: an RGB metalens with three independent focal spots, a six-plane full-color hologram with an average structural similarity index measure (SSIM) of 0.97, and an optoelectronic hybrid neural network for image style transfer. These tasks require 74, 136 and 90 reasoning steps, respectively, and the system self-corrects errors in frequency mapping, numerical aperture estimation, network-parameter counting and loss-function description. These results establish MetaDesigner as a self-correcting route to agentic metasurface design, where language-model systems can not only execute optical design tasks but also extend, inspect and repair the design process itself.

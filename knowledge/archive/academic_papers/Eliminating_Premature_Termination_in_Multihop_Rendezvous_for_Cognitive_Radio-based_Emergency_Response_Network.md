@@ -1,0 +1,9 @@
+---
+title: "Eliminating Premature Termination in Multihop Rendezvous for Cognitive Radio-based Emergency Response Network"
+authors: ['Zahid Ali', 'Saritha Unnikrishnan', 'Eoghan Furey', 'Ian McLoughlin', 'Saim Ghafoor']
+published: 2026-05-21
+arxiv_id: 2605.22325v1
+url: https://arxiv.org/abs/2605.22325v1
+---
+
+In post-disaster environments, damaged communication infrastructure severely limits coordination among emergency response teams. Cognitive radio networks (CRNs) enable rapidly deployable communication by allowing nodes to opportunistically access available spectrum. However, existing multihop rendezvous protocols typically rely on N-1 termination conditions, which can lead to premature termination, resulting in incomplete neighbour discovery and invalid network topology formation. This work identifies this limitation as a previously overlooked issue in multihop rendezvous protocols. This paper proposes a Multihop Reliable Dual-Modular Clock Algorithm (MR-DMCA) that eliminates premature termination and ensures reliable network formation. The proposed protocol introduces a coordinate-assisted neighbour validation mechanism and an autonomous termination strategy that guarantees complete neighbour and topology discovery before protocol termination. Although implemented within MR-DMCA, the proposed validation and termination approach is applicable to a wider class of multihop rendezvous protocols. Extensive simulations demonstrate that, in a worst-case scalable scenario with 20 nodes and 20 channels under high primary radio activity (m=2), MR-DMCA achieves 100% accurate neighbour and topology discovery while reducing rendezvous time by up to 76%, 37%, and 17% compared with baseline protocols. The results highlight that addressing premature termination is critical for reliable multihop rendezvous in cognitive radiobased emergency communication networks.

@@ -1,0 +1,9 @@
+---
+title: "Protection Is (Nearly) All You Need: Structural Protection Dominates Scoring in Globally Capped KV Eviction"
+authors: ['Gabriel Garcia']
+published: 2026-05-18
+arxiv_id: 2605.18053v1
+url: https://arxiv.org/abs/2605.18053v1
+---
+
+We study KV cache eviction under a shared globally capped decode-time harness. Seven policies (LRU, H2O, SnapKV, StreamingLLM, Ada-KV, QUEST, Random) share a prompt-boundary vulnerability: without structural protection, they collapse to near-zero quality on six pure-transformer models (F1$\leq$0.064). Reserving 10\% of cache at each boundary recovers 69--90\% of the $C{=}2{,}048$ reference-ceiling quality on seven LongBench models at $C{=}256$ (13\% retention); a ten-model panel spans 68--98\%. An attention-mass pilot (Qwen2.5-3B, $N{=}30$) suggests why: the position-0 sink holds ${\sim}75\%$ of prefix mass, while other boundary tokens sit near ${\sim}0.41{\times}$ uniform expectation, so attention scorers retain the sink but still drop structurally critical tokens. With protection, simplified score-isolation variants are TOST-equivalent to LRU at $K{=}32$ ($Δ{=}0.02$); at $K{=}8$, attention policies pairwise converge yet beat LRU by 0.011--0.021 F1 across $C{=}256$ and $C{=}512$. Faithful Ada-KV/QUEST add ${\sim}0.03$--$0.04$ F1 on Mistral-7B and Phi-3.5 beyond simplified variants. A NIAH-32K regime-transfer pilot on Qwen3-4B (decode vs.\ prefill, $C{\in}\{512,2048\}$) shows near-identical protection lifts (ratio 0.99--1.00). At 64K, protection helps but recovery is modest; faithful per-head scoring matches full-cache ceiling on Gemma-3-4B at 6.3\% retention only when the model already supports strong 64K retrieval without eviction. Overall: protection dominates; scoring differences are secondary once boundaries are guarded; per-head allocation gives a further modest gain.

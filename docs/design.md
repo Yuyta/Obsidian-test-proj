@@ -44,10 +44,21 @@ tags: ["paper", "automated-research"]
 3. **知識の昇華**:
     - 定期的に `inbox/` を確認し、有用な情報を `research/` の各分野（mlops, robotics等）へ移動・整理。
     - 複数の情報を元に `synthesis/` でトレンド分析や戦略を執筆。
+4. **inbox整理・アーカイブ処理（仕様変更）**:
+    - `knowledge/scripts/inbox_organizer.py` を実行。
+    - `knowledge/inbox/` の各サブフォルダ（`academic_papers`, `chatgpt`, `gemini`, `youtube` 等）に残った（または処理済みの）ファイルを、情報源がわかるように `knowledge/archive/<情報源>/` 配下に移動する。
+    - 移動先のフォルダが存在しない場合は自動で作成する。
+5. **エージェント自律循環フロー**:
+    - エージェント（Antigravity）は、`Collector` や `Summarizer` で `inbox/` に集めた生データを自律的に読み込む。
+    - 読み込んだ生データを要約・統合した上で、`research/` 配下のカテゴリ別フォルダ（例: `mlops`, `robotics` 等）に成果物（Markdownノート）を作成・更新する。
+    - 成果物作成が完了したら、`inbox_organizer.py` をトリガーしてインボックスをクリアし、一連のサイクルを完結させる。
+
 
 ## パス構成
 - スクリプト (YouTube): `knowledge/scripts/youtube_summarizer.py`
+- スクリプト (整理・アーカイブ): `knowledge/scripts/inbox_organizer.py`
 - 設定ファイル (キーワード): `knowledge/config/keywords.yaml`
 - 設定ファイル (YouTube): `knowledge/config/youtube_channels.yaml`
 - 出力先 (論文): `knowledge/inbox/academic_papers/`
 - 出力先 (YouTube): `knowledge/inbox/youtube/`
+- 出力先 (アーカイブ): `knowledge/archive/<情報源>/`

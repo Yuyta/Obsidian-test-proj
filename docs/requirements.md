@@ -26,8 +26,13 @@
     - 論文: `knowledge/inbox/academic_papers/`
     - YouTube要約: `knowledge/inbox/youtube/`
     - 市場動向: `knowledge/inbox/chatgpt/`, `knowledge/inbox/gemini/` 等
+- **知識整理・アーカイブ（仕様変更）**:
+    - inboxの整理時に、元の情報源が判別できるように `knowledge/archive/` 配下にサブフォルダ（例: `academic_papers`, `chatgpt`, `gemini`, `youtube` 等）を自動作成し、そこにファイルを移動する。
+- **エージェント自律運用サイクル**:
+    - AIエージェント（Antigravity）は、最新情報の「収集」から、知識の「昇華（成果物作成）」、使用済みファイルの「整理（アーカイブ）」までの一連のサイクルを指示なしで自律的に実行可能であること。
 - **重複排除**: 既にVault内に存在する論文はスキップする。
 - **定期実行**: 論文調査を週次で自動実行する。
+
 
 ## 非機能要件
 - **ディレクトリ構造の保守**: 定義された `knowledge/` 階層を維持する。
@@ -37,12 +42,22 @@
 ## ディレクトリ構造（標準）
 ```
 knowledge/
-├── inbox/                 # 生データ投入
+├── inbox/                 # 生データ投入（情報源別のサブフォルダ）
+│   ├── academic_papers/   # 論文
+│   ├── chatgpt/           # ChatGPT調査
+│   ├── gemini/            # Gemini調査
+│   └── youtube/           # YouTube要約
+├── archive/               # アーカイブ（情報源別のサブフォルダ）
+│   ├── academic_papers/   
+│   ├── chatgpt/           
+│   ├── gemini/            
+│   └── youtube/           
 ├── research/              # 整理済み調査
 ├── synthesis/             # 横断整理・考察
 ├── skills/                # Antigravity Skills
 ├── templates/             # Obsidian テンプレート
 ├── scripts/               # 運用スクリプト
+│   └── inbox_organizer.py # 新規: Inbox整理・アーカイブスクリプト
 ├── daily/                 # デイリーノート
 └── config/                # 設定ファイル
 ```

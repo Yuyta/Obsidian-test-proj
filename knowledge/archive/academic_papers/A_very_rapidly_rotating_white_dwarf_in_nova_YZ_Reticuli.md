@@ -1,0 +1,9 @@
+---
+title: "A very rapidly rotating white dwarf in nova YZ Reticuli"
+authors: ['G. J. M. Luna', 'N. Rawat', 'R. Angeloni', 'M. Orio', 'S. Scaringi', 'A. Dobrotka', 'J. Magdolen']
+published: 2026-05-21
+arxiv_id: 2605.22802v1
+url: https://arxiv.org/abs/2605.22802v1
+---
+
+YZ Ret (Nova Reticuli 2020) is the first VY Scl-type nova-like variable observed to undergo a classical nova eruption. Following the outburst, timing analysis of 20-s cadence TESS data revealed a periodicity at approximately 42 s, suggesting a possible classification as a fast-spinning Intermediate Polar. To definitively identify the nature of this modulation, we performed a multi-instrument timing analysis using high-speed ground-based photometry Zorro/Gemini South (1 s cadence) and the South African Astronomical Observatory (5 s cadence) alongside TESS Sector 97 observations. Our ground-based data reveal a highly coherent period of 37.69131 +- 0.00001 s, which we identify as the true rotation period of the white dwarf. We demonstrate that the apparent 42.61 s signal in the TESS data is a Nyquist alias of this fundamental frequency. Furthermore, the signal amplitude in the TESS data is suppressed by a factor of ~0.6 relative to the Gemini observations, a result consistent with the theoretical sinc-function damping expected for a 20-s integration time. The extreme coherence and long-term stability of the 37.69131 s signal rule out transient phenomena such as dwarf nova oscillations or non-radial pulsations. We conclude that YZ Ret hosts a fast-spinning magnetic white dwarf in an Intermediate Polar configuration. This discovery implies that mass loss during the nova eruption was likely driven by a fast magnetic rotator wind and provides a physical explanation for the missing supersoft X-ray phase, suggesting that nearly the entire accreted envelope was exhausted, promptly quenching the nuclear burning.

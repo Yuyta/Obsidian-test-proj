@@ -1,0 +1,9 @@
+---
+title: "Multispectral Blind Image Super-Resolution for Standing Dead Tree Segmentation"
+authors: ['Mete Ahishali', 'Anis Ur Rahman', 'Einari Heinaro', 'Aysen Degerli', 'Samuli Junttila']
+published: 2026-05-04
+arxiv_id: 2605.02471v1
+url: https://arxiv.org/abs/2605.02471v1
+---
+
+Mapping standing dead trees is crucial for acquiring information on the effects of climate change on forests and forest biodiversity. However, leveraging high-quality aerial imagery for dead tree segmentation poses challenges due to limitations in sensor availability and the scarcity of annotated data. In this study, we propose a generic blind super-resolution framework that incorporates Attention-Guided Domain Adaptation Networks (ADA-Nets) to learn the mapping from low-resolution to high-resolution multispectral image domains. Our approach operates solely on unpaired samples, mimicking real-world conditions, i.e., low-resolution images are not synthetically obtained by downsampling the high-resolution images. Moreover, the proposed method serves as a general-purpose restorer addressing several image degradation types, including saturation, noise, and low contrast that typically occur in low-resolution images acquired by low-end sensors. To the best of our knowledge, this is the first study to perform real-world and generic super-resolution for multispectral data in the scope of standing dead tree segmentation. Experimental evaluations demonstrate segmentation performances of 54% and 64% in Dice scores. Notably, the first result is obtained without using any high-resolution annotations; the segmentation network is trained on super-resolved low-resolution images, while evaluation is performed on the high-resolution data. We publicly share the aerial multispectral dataset with manually annotated labels at https://www.kaggle.com/datasets/meteahishali/aerial-imagery-for-dead-tree-segmentation-poland.

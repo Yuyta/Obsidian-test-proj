@@ -1,0 +1,9 @@
+---
+title: "Single-pump hybrid nonlinearities in transparent conductors"
+authors: ['Wallace Jaffray', 'Sven Stengel', 'Alexandra Boltasseva', 'Vladimir M. Shalaev', 'Carlo Rizza', 'Domenico de Ceglia', 'Maria Antonietta Vincenti', 'Michael Scalora', 'Matteo Clerici', 'Marcello Ferrera']
+published: 2026-05-21
+arxiv_id: 2605.22246v1
+url: https://arxiv.org/abs/2605.22246v1
+---
+
+Low-index transparent conducting oxides have attracted significant attention because ultrafast optical excitation in these materials can induce exceptionally large temporal index gradients. Due to this remarkable nonlinear optical behaviour, this material platform enables sub-picosecond, all-optical control of photon energy and momentum, with growing relevance for integrated photonics, quantum optics, and optical computation. Owing to their hybrid electronic structure, transparent conductors exhibit both intraband and interband nonlinearities, previously accessed using dual-colour excitation with near-infrared and ultraviolet pumps. Here, we show that both excitation regimes can be activated using a single, intense near-infrared pump. Above a threshold intensity, the pump drives hot-electron intraband dynamics while simultaneously generating higher harmonics that trigger interband excitation. The interplay of these two effects sharpens the temporal features of the recorded transmissivity which in turn substantially broadens the effective material bandwidth. Finally, by comparing linear and circular pumping conditions, we further demonstrate that the observed interband nonlinearities originate from harmonic generation rather than from direct multiphoton absorption. Our results provide key insights into the strong-field optical response in these time-varying photonic materials, opening new frontiers for the ultra-fast manipulation of photons in both classic and quantum regimes.

@@ -1,0 +1,9 @@
+---
+title: "Robust and Reliable AI for Predictive Quality in Semiconductor Materials Manufacturing with MLOps and Uncertainty Quantification"
+authors: ['Min Gao', 'Julia Maria Perathoner', 'Anton Ludwig Bonin', 'Steven Eulig', 'Gianni Klesse']
+published: 2026-05-08
+arxiv_id: 2605.07752v1
+url: https://arxiv.org/abs/2605.07752v1
+---
+
+Semiconductor materials manufacturing presents unique challenges for machine learning deployment due to evolving process conditions, equipment degradation, and raw material variability that can cause model performance deterioration over time. This study benchmarks machine learning operations (MLOps) retraining strategies using five years of real manufacturing data to identify optimal retraining approaches for quality prediction. We evaluate various retraining frequencies and hyperparameter optimization strategies using control limit normalized residuals as key performance metric. Results demonstrate that a fixed retraining cadence every five production batches without hyperparameter retuning achieves superior performance across all drift conditions while significantly reducing computational overhead compared to strategies incorporating hyperparameter optimization. This approach effectively maintains model accuracy during both abrupt process changes and gradual equipment degradation patterns. To address the critical need for uncertainty quantification in manufacturing decision-making, we implement conformal prediction to generate prediction confidence intervals with strong statistical guarantees. This enables proactive quality control by identifying when prediction intervals fall within acceptable control limits, transforming traditional reactive quality management into a predictive framework. The findings provide practical guidelines for implementing robust MLOps strategies in manufacturing environments where computational efficiency and reliable uncertainty quantification are paramount for operational success.

@@ -1,0 +1,9 @@
+---
+title: "Conditional Enhancement of Radical Pair Dynamics via Chiral State Preparation"
+authors: ['Tristen Gwynn', 'Betony Adams', 'Francesco Petruccione']
+published: 2026-05-21
+arxiv_id: 2605.22130v1
+url: https://arxiv.org/abs/2605.22130v1
+---
+
+Chiral-induced spin selectivity (CISS) has been shown to enhance magnetic sensitivity in radical pair mechanism (RPM) models under specific Hamiltonian conditions, yet whether these enhancements persist across a broader parameter space remains untested. We incorporate the CISS effect as a spin-dependent initial state and recombination operator and systematically evaluate the spin dynamics of a model radical pair across a comprehensive parameter sweep of the RPM Hamiltonian. We characterise the orientational response through symmetric and antisymmetric decomposition of the yield distribution under field reversal, providing a direct quantitative signature of CISS-induced symmetry breaking. Our analysis demonstrates that CISS does not function as a generic amplifier of magnetic sensitivity. Claimed enhancements are conditional on the relative alignment of the internal hyperfine and dipolar interaction axes, arising specifically under conditions of non-collinear internal interactions. Extension to a two-nucleus model confirms that these enhancements are sensitive to nuclear spin. CISS-induced effects observed in the single-nucleus model are substantially suppressed when a second collinear nucleus is introduced, with the exception of the hyperfine axis rotation sweep where non-collinear tensor misalignment drives a robust antisymmetric response. These findings indicate that the conditions for CISS-enhanced magnetoreception are more stringent than previously demonstrated, requiring highly ordered and rigid molecular geometries to sustain the effect.

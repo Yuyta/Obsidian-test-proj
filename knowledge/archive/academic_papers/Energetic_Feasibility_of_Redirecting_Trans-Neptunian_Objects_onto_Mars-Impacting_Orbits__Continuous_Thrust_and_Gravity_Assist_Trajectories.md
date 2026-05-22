@@ -1,0 +1,10 @@
+---
+title: "Energetic Feasibility of Redirecting Trans-Neptunian Objects onto Mars-Impacting Orbits: Continuous Thrust and Gravity Assist Trajectories"
+authors: ['Ryszard Gabryszewski', 'Leszek Czechowski', 'Arkadiusz Hess']
+published: 2026-05-21
+arxiv_id: 2605.22682v1
+url: https://arxiv.org/abs/2605.22682v1
+---
+
+We assess the dynamical feasibility of redirecting small volatile-bearing trans-Neptunian objects (TNOs) onto Mars-impacting orbits using continuous low-thrust propulsion and a single gravity-assist encounter. The study considers two representative dynamical classes: classical Kuiper Belt--like and Scattered Disk--like initial orbits, and determines the minimum characteristic velocity increment $ΔV$ required to drive the objects onto a Mars-impacting trajectory within a specified transfer time $ΔT$. The dynamics is modelled in the two-body problem with a fixed maximum low thrust included, allowing the computed $ΔV$ to represent a dynamical lower bound independent of specific propulsion-technical implementation.
+  Three trajectory classes are investigated: (i) inward spiral transfer, (ii) time-dependent thrust-direction steering optimized via global evolutionary algorithms, and (iii) hybrid transfers combining low thrust with a single Neptune flyby. Pure spiral trajectories yield very high velocity expenditures ($ΔV \gtrsim 22~\mathrm{km~s^{-1}}$) and millennia durations, confirming that monotonic inward migration is dynamically inefficient for TNO redirection. In contrast, optimized steering strategies systematically increase orbital eccentricity and achieve Mars-impacting geometries with $ΔV \approx 2.5$--$3.2~\mathrm{km~s^{-1}}$ over 380--540 yr timescales. A single Neptune encounter further reduces the total $ΔV$ in favourable cases, with minimum values falling below those of direct optimized transfers. These results establish a quantitative lower bound on the energy cost of importing volatiles from the outer Solar System to Mars, showing that controlled redirection is feasible under modest $ΔV$ budgets when target bodies are chosen from favourable regions of orbital phase space.
