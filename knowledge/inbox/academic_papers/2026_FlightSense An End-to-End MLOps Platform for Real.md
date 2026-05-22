@@ -1,0 +1,26 @@
+---
+authors:
+- Aditi J. Shelke
+- Renuka J. Shelke
+- Yash M. Kamerkar
+doi: null
+fetched_at: '2026-05-22 23:06:34'
+status: Inbox
+tags:
+- paper
+- automated-research
+- MLOps
+title: 'FlightSense: An End-to-End MLOps Platform for Real-Time Flight Delay Prediction
+  via Rotation-Chain Propagation Features and Agentic Conversational AI'
+url: https://www.semanticscholar.org/paper/eae3024d6536edc456eda5f4e49e170f920c9daf
+year: 2026
+---
+
+
+
+## Connections
+- Topic: [[MLOps]]
+- Type: [[Research Paper]]
+
+## Abstract
+Flight delays impose cascading operational and financial burdens across the aviation network, costing the U.S. economy billions of dollars annually by disrupting interconnected aircraft rotation systems. While prior machine learning approaches have demonstrated strong predictive performance, most treat upstream delays as static input variables rather than explicitly modeling how delays propagate dynamically through aircraft rotation chains, and none have deployed such systems alongside a live weather-aware conversational AI interface for end-user interaction. This paper presents FlightSense, an end-to-end MLOps platform for real-time flight delay prediction built through a progressive three-version feature engineering framework. Version 1 trains an XGBoost classifier on 11 schedule-based features establishing a baseline ROC AUC of 0.732 on 7.07 million BTS 2018 On-Time Performance records. Version 2 introduces 11 delay propagation features derived from aircraft rotation chains via tail-number tracking, yielding the dominant performance gain (AUC 0.732 to 0.875) and surpassing the single-stage XGBoost baseline reported by Zhou (2025). Version 3 integrates five NOAA meteorological features across 10 major U.S. airports, achieving a final test set AUC of 0.879. FlightSense is deployed as a production AWS MLOps pipeline incorporating live weather ingestion via Lambda, real-time SageMaker inference, an interactive Streamlit dashboard, and an Amazon Bedrock Nova Micro conversational assistant answering natural-language delay queries via a tool-use architecture.

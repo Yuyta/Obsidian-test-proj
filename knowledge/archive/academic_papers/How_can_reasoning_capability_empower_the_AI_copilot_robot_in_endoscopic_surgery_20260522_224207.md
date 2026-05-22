@@ -1,9 +1,0 @@
----
-title: "How can reasoning capability empower the AI copilot robot in endoscopic surgery"
-authors: ['Guankun Wang', 'Long Bai', 'Hongliang Ren']
-published: 2026-05-21
-arxiv_id: 2605.22322v1
-url: https://arxiv.org/abs/2605.22322v1
----
-
-Reasoning capability has significantly advanced complex logical inference and robotic decision-making in general domains. However, its potential in the Artificial Intelligence (AI) copilot robot-particularly implemented based on the Vision-Language-Action (VLA) model-remains unexplored in endoscopic surgery. Effective reasoning should enable AI copilot robots to integrate multimodal cues, interpret surgical intent, and infer hidden tissue dynamics, thereby alleviating intraoperative uncertainty and cognitive burden on surgeons. Properly implemented, reasoning-driven autonomy can transform AI copilot robots from reactive executors into cognitive collaborators, enhancing precision, safety, and sustainability in clinical practice.

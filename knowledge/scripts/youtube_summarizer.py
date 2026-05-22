@@ -8,10 +8,41 @@ import re
 import time
 import json
 
+from pathlib import Path
+
 # 設定
-CONFIG_PATH = "knowledge/config/youtube_channels.yaml"
-OUTPUT_DIR = "knowledge/inbox/youtube"
+BASE_DIR = Path(__file__).resolve().parents[2]
+CONFIG_PATH = BASE_DIR / "knowledge" / "config" / "youtube_channels.yaml"
+OUTPUT_DIR = BASE_DIR / "knowledge" / "inbox" / "youtube"
 GEMINI_MODEL = "gemini-1.5-flash"
+
+EXISTING_VIDEO_IDS = set()
+
+def collect_existing_video_ids(vault_root):
+    """Vault配下のmarkdownファイルを走査し、既存のYouTubeビデオID（frontmatterのid値またはファイル名から）を収集する。"""
+    id_pattern = re.compile(r'id:\s*"(?P<id>[a-zA-Z0-9_-]{11})"')
+    timestamp_pattern = re.compile(r"_(\d{8}_\d{6})(?:_\d+)?$")
+    
+    for md_path in Path(vault_root).rglob("*.md"):
+        # ファイルの中身の `id: "xxx"` をチェック
+        try:
+            text = md_path.read_text(encoding="utf-8")
+            found = False
+            for match in id_pattern.finditer(text):
+                EXISTING_VIDEO_IDS.add(match.group("id"))
+                found = True
+            if found:
+                continue
+        except Exception:
+            pass
+        
+        # 中身が読めない、またはidが見つからない場合はファイル名から推測
+        stem = md_path.stem
+        # タイムスタンプサフィックスを除去
+        stem = timestamp_pattern.sub('', stem)
+        # YouTubeのIDは通常11文字
+        if len(stem) == 11:
+            EXISTING_VIDEO_IDS.add(stem)
 
 def setup_gemini():
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -28,10 +59,15 @@ def get_video_subtitles(video_url):
     ydl_opts = {
         'skip_download': True,
         'writeautomaticsub': True,
+        'writesubtitles': True,  # 手動アップロードされた日本語字幕も対象にする
         'subtitleslangs': ['ja'],
         'quiet': True,
         'no_warnings': True,
     }
+    
+    # 一時ファイル名のプレフィックスを絶対パスで設定
+    temp_sub_file = str(BASE_DIR / f"temp_sub_{int(time.time())}")
+    vtt_file = f"{temp_sub_file}.ja.vtt"
     
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
@@ -43,34 +79,36 @@ def get_video_subtitles(video_url):
             subtitles = ""
             if 'requested_subtitles' in info and 'ja' in info['requested_subtitles']:
                 sub_path = info['requested_subtitles']['ja']['url']
-                # yt-dlpで直接テキスト化するのは難しいため、別の方法や簡易的なパースが必要になる場合がある
-                # ここでは簡易的にinfoから取得できる範囲か、あるいは事後処理を検討
-                # 実際には --get-subs 的な動作が必要
                 pass
 
             # 実際にはyt-dlpで字幕ファイルを一度ダウンロードして読み込むのが確実
             # GitHub Actions上では一時ファイルとして扱う
-            temp_sub_file = f"temp_sub_{int(time.time())}"
             ydl_opts['outtmpl'] = temp_sub_file
-            with yt_dlp.YoutubeDL(ydl_opts) as ydl_down:
-                ydl_down.download([video_url])
             
-            # vttファイルを読み込む
-            vtt_file = f"{temp_sub_file}.ja.vtt"
-            if os.path.exists(vtt_file):
-                with open(vtt_file, "r", encoding="utf-8") as f:
-                    content = f.read()
-                # VTTのタグを除去してテキストのみ抽出
-                text = re.sub(r'<[^>]+>', '', content)
-                text = re.sub(r'\d{2}:\d{2}:\d{2}\.\d{3} --> \d{2}:\d{2}:\d{2}\.\d{3}.*\n', '', text)
-                text = "\n".join(list(dict.fromkeys([line.strip() for line in text.split('\n') if line.strip()])))
-                os.remove(vtt_file)
-                return title, upload_date, text
-            
-            return title, upload_date, None
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl_down:
+            ydl_down.download([video_url])
+        
+        # vttファイルを読み込む
+        if os.path.exists(vtt_file):
+            with open(vtt_file, "r", encoding="utf-8") as f:
+                content = f.read()
+            # VTTのタグを除去してテキストのみ抽出
+            text = re.sub(r'<[^>]+>', '', content)
+            text = re.sub(r'\d{2}:\d{2}:\d{2}\.\d{3} --> \d{2}:\d{2}:\d{2}\.\d{3}.*\n', '', text)
+            text = "\n".join(list(dict.fromkeys([line.strip() for line in text.split('\n') if line.strip()])))
+            return title, upload_date, text
+        
+        return title, upload_date, None
     except Exception as e:
         print(f"Error getting subtitles for {video_url}: {e}")
         return None, None, None
+    finally:
+        # 一時ファイルを確実に削除する
+        if os.path.exists(vtt_file):
+            try:
+                os.remove(vtt_file)
+            except Exception as e:
+                print(f"Warning: Could not remove temp file {vtt_file}: {e}")
 
 def summarize_video(model, title, transcript):
     prompt = f"""
@@ -108,8 +146,11 @@ def summarize_video(model, title, transcript):
     return response.text
 
 def main():
-    if not os.path.exists(OUTPUT_DIR):
-        os.makedirs(OUTPUT_DIR)
+    # 出力先ディレクトリが存在しない場合は作成
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    # 既存のYouTube動画IDをVault全体から収集
+    collect_existing_video_ids(BASE_DIR)
 
     config = load_config()
     model = setup_gemini()
@@ -122,9 +163,10 @@ def main():
         for entry in feed.entries:
             video_id = entry.yt_videoid
             video_url = entry.link
-            filename = f"{OUTPUT_DIR}/{video_id}.md"
+            filename = OUTPUT_DIR / f"{video_id}.md"
 
-            if os.path.exists(filename):
+            # 重複チェック（Vault全体にすでに存在するIDか、またはinboxに同じファイル名が存在する場合）
+            if video_id in EXISTING_VIDEO_IDS or filename.exists():
                 continue
 
             print(f"New video found: {entry.title}")

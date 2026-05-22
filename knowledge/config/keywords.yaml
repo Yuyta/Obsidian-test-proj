@@ -15,3 +15,26 @@ search_limit_per_keyword: 5
 lookback_days: 30
 output_dir: "knowledge/inbox/academic_papers"
 semantic_scholar_api_url: "https://api.semanticscholar.org/graph/v1/paper/search"
+# Optional stricter filters used by the collector to avoid unrelated (e.g., medical) hits
+focus_terms:
+  - "Physical AI"
+  - "Physical-AI"
+  - "VLA"
+  - "Vision-Language"
+  - "Vision Language"
+  - "Vision-Language-Action"
+  - "autonomous driving"
+  - "ADAS"
+  - "MLOps"
+  - "Robotics"
+
+blocklist_terms:
+  - "asthma"
+  - "clinical"
+  - "patient"
+  - "biopsy"
+  - "infection"
+  - "epidemic"
+  - "hospital"
+  - "covid"
+  - "influenza"
