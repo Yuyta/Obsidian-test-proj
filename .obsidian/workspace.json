@@ -11,10 +11,14 @@
             "id": "533fe050349dca5b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "グラフビュー"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -202,6 +206,7 @@
   },
   "active": "533fe050349dca5b",
   "lastOpenFiles": [
+    "knowledge/scripts/check_inbox_processed_relaxed.py",
     "knowledge/scripts/check_inbox_processed.py",
     "knowledge/scripts/dedupe_summaries.py",
     "knowledge/research/auto_summaries/mindvla-u1-vla-beats-va-with-unified-streaming-architecture-for-autonomous_1.md",
@@ -236,7 +241,6 @@
     "scripts/preview_delete_unrelated.py",
     "scripts",
     "knowledge/research/ai",
-    "knowledge/research/physical_ai",
-    "knowledge/inbox/youtube"
+    "knowledge/research/physical_ai"
   ]
 }
