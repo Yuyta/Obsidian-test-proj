@@ -1,0 +1,239 @@
+今週は「AIエージェントの本番運用化」「Software Defined Vehicle（SDV）の競争激化」「クラウドネイティブ＋ゼロトラスト統合」が大きなテーマです。
+特にSCSKのようなSI・ITサービス企業にとっては、“PoC支援”から“運用責任を持つAI基盤提供”へ市場が急速に移っています。
+
+## 1. エンタープライズAI：AIエージェントの「実運用フェーズ」突入
+
+### 重要トレンド
+
+SAP、Google、Accentureなどが、単なる生成AIチャットではなく「業務を自律実行するAIエージェント基盤」を前面に出し始めています。
+SAPは「Autonomous Enterprise（自律型企業）」を掲げ、ERP・SCM・財務・サステナビリティまでAIエージェント統合を推進しています。 ([SAP News Center][1])
+
+Google Cloudも企業向けAI戦略の中心を「AI Agents」に移行。Microsoft・Googleともに、エージェント管理・ガバナンス機能を強化しています。 ([Reuters][2])
+
+また、Gartner系予測では、
+
+* 2025年：5%未満
+* 2026年：40%近い企業アプリにAIエージェント統合
+
+という急拡大予測が出ています。 ([Método Viral][3])
+
+### 技術的ポイント
+
+重要なのはLLMそのものではなく、以下の運用技術です。
+
+* Context Engineering
+* Agent Orchestration
+* Guardrails
+* AI Governance
+* Workflow Integration
+* Observability
+* Human-in-the-loop
+
+Salesforceも「Deterministic Guardrails（決定論的ガードレール）」を強調しています。 ([salesforce.com][4])
+
+### SCSK競合の動き
+
+競合SIerは以下にシフトしています。
+
+| 企業                                                                       | 動き                                         |
+| ------------------------------------------------------------------------ | ------------------------------------------ |
+| [NTTデータ公式サイト](https://www.nttdata.com/global/ja/?utm_source=chatgpt.com) | 業務特化AIエージェント                               |
+| [富士通公式サイト](https://global.fujitsu/ja-jp?utm_source=chatgpt.com)          | AI＋業務変革＋Uvance                             |
+| [日立製作所公式サイト](https://www.hitachi.co.jp/?utm_source=chatgpt.com)          | LumadaによるOT/IT統合                           |
+| [アクセンチュア公式サイト](https://www.accenture.com/jp-ja?utm_source=chatgpt.com)   | Databricks連携でAI本番化支援 ([アクセンチュアニュースルーム][5]) |
+
+### SCSKの勝ち筋
+
+SCSKは「ERP運用」「製造業SI」「保守運用」が強いため、
+
+> “AIエージェントの24時間運用管理”
+
+を主戦場にすると差別化しやすいです。
+
+特に有望なのは：
+
+* SAP AI運用代行
+* AgentOps監視
+* AIエージェントの権限制御
+* AI監査ログ
+* AI障害時フェイルオーバー
+
+です。
+
+単なる生成AI開発受託は価格競争化し始めています。
+
+---
+
+## 2. SDV（Software Defined Vehicle）競争が本格化
+
+### 重要トレンド
+
+自動車業界では、
+
+* SDV
+* AI Defined Vehicle
+* 中央集中アーキテクチャ
+
+が主流テーマになっています。 ([Autonomous Vehicle Tech Expo 2026][6])
+
+CES 2026でも、
+「ソフトウェアが車の価値を決める」
+流れが明確化しました。 ([DIGITIMES Asia][7])
+
+特に重要なのが：
+
+* OTA更新
+* AIコックピット
+* 車載AIエージェント
+* Predictive Maintenance
+* クラウド連携
+
+です。 ([Computer Weekly][8])
+
+### NVIDIA中心構造が強化
+
+Hyundai/KiaとNVIDIAの提携強化など、
+「車載AI基盤＝NVIDIA」
+の流れがさらに加速しています。 ([NVIDIA Newsroom][9])
+
+### 技術トレンド
+
+SDVでは以下が急拡大：
+
+* Kubernetes on Edge
+* ROS2
+* Vehicle OS
+* OTA MLOps
+* Simulation at Scale
+* Digital Twin
+* Functional Safety + AI
+
+### SCSK競合の動き
+
+| 企業                                                                               | 強み          |
+| -------------------------------------------------------------------------------- | ----------- |
+| [デンソー公式サイト](https://www.denso.com/jp/ja/?utm_source=chatgpt.com)                 | 車載ソフト       |
+| [パナソニック オートモーティブ公式サイト](https://automotive.panasonic.com/?utm_source=chatgpt.com) | 車室空間AI      |
+| [TIER IV公式サイト](https://tier4.jp/?utm_source=chatgpt.com)                         | Autoware    |
+| [NTTデータ公式サイト](https://www.nttdata.com/global/ja/?utm_source=chatgpt.com)         | SDVプラットフォーム |
+
+### SCSKの攻め所
+
+SCSKは完成車メーカーの“全領域”を取るより、
+
+> 「SDV運用基盤」
+> 「OTA/MLOps」
+> 「車載クラウド基盤」
+
+に集中した方が強いです。
+
+特に有望なのは：
+
+* 車載Kubernetes
+* OTA配信管理
+* AIモデル配信監査
+* 車両データ基盤
+* AI安全監査
+
+です。
+
+「クラウドネイティブ＋車載」の橋渡し人材はまだ不足しています。
+
+---
+
+## 3. クラウドネイティブ × ゼロトラスト統合が加速
+
+### 今週の注目
+
+KubeCon Japan 2026 のプログラム発表で、
+AI・Observability・Platform Engineering・Zero Trust が主軸になっています。 ([Linux Foundation][10])
+
+これはつまり：
+
+> 「AIを安全に大規模運用するための基盤整備」
+
+が業界の中心テーマになったことを意味します。
+
+### 技術トレンド
+
+重要キーワード：
+
+* Zero Trust Network Access
+* Software Supply Chain Security
+* Kubernetes Security
+* Runtime Security
+* Platform Engineering
+* AI Governance
+* Agent Identity
+
+API Security市場も急拡大しています。 ([フォーチュンビジネスインサイト][11])
+
+また、AI時代のゼロトラスト強化も進展。 ([ビジネスワイヤ][12])
+
+### SCSKの勝ち筋
+
+SCSKはここでかなり戦えます。
+
+理由：
+
+* インフラ運用が強い
+* 金融・製造の既存顧客が多い
+* ガバナンス案件を取りやすい
+
+特に重要なのは：
+
+> 「AI時代の運用標準化」
+
+です。
+
+有望領域：
+
+* AI SOC
+* AI監査基盤
+* Platform Engineering支援
+* Kubernetesセキュリティ
+* AIガバナンス統制
+
+---
+
+# 総括：今週見えた大きな流れ
+
+今週の本質は、
+
+> 「生成AIの実験時代が終わり、“運用責任”の時代へ入った」
+
+ことです。
+
+その結果、価値の中心は：
+
+| 以前     | 今後               |
+| ------ | ---------------- |
+| LLMを作る | AIを安全運用する        |
+| PoC    | 本番運用             |
+| チャットUI | 業務エージェント         |
+| モデル性能  | 運用品質             |
+| 単体AI   | AI＋クラウド＋セキュリティ統合 |
+
+へ移っています。
+
+SCSKにとっては、
+
+* 「AI運用」
+* 「SDV運用」
+* 「ゼロトラスト運用」
+* 「Platform Engineering」
+
+が最重要戦略テーマになっていく可能性が高いです。
+
+[1]: https://news.sap.com/2026/05/sap-sapphire-keynote-business-ai-platform-power-autonomous-enterprise/?utm_source=chatgpt.com "SAP Unveils Business AI Platform to Power the Autonomous Enterprise"
+[2]: https://www.reuters.com/business/google-puts-ai-agents-heart-its-enterprise-money-making-push-2026-04-22/?utm_source=chatgpt.com "Google puts AI agents at heart of its enterprise money ..."
+[3]: https://metodoviral.com/en/news/ai-agents-in-40-of-enterprise-apps-by-2026/?utm_source=chatgpt.com "AI Agents in 40% of Enterprise Apps by 2026"
+[4]: https://www.salesforce.com/blog/ai-agent-trends-2026/?utm_source=chatgpt.com "8 Ways AI Agents Are Evolving in 2026"
+[5]: https://newsroom.accenture.com/news/2026/accenture-and-databricks-accelerate-enterprise-adoption-of-ai-applications-and-agents-at-scale?utm_source=chatgpt.com "Accenture and Databricks Accelerate Enterprise Adoption of AI Applications and Agents at Scale"
+[6]: https://autonomousvehicletechnologyexpo.com/conference-2026-themes?utm_source=chatgpt.com "Conference 2026 themes"
+[7]: https://www.digitimes.com/news/a20260112PD243/2026-ces-2026-ces-sdv-software-vehicle.html?utm_source=chatgpt.com "Software takes the wheel in automotive industry at CES 2026"
+[8]: https://www.computerweekly.com/news/366643055/Software-defined-vehicles-enter-era-of-AI-driven-value-creation?utm_source=chatgpt.com "Software-defined vehicles enter era of AI-driven value ..."
+[9]: https://nvidianews.nvidia.com/news/hyundai-motor-kia-autonomous-driving?utm_source=chatgpt.com "Hyundai Motor, Kia and NVIDIA Expand Strategic Partnership for Next-Generation Autonomous Driving Technology"
+[10]: https://www.linuxfoundation.org/ja-jp/news/cncf-debuts-kubecon-cloudnativecon-japan-2026-schedule?utm_source=chatgpt.com "Cloud Native Computing Foundation「KubeCon ..."
+[11]: https://www.fortunebusinessinsights.com/api-security-market-111625?utm_source=chatgpt.com "API Security Market Size, Drivers | Share Forecast to 2034"
+[12]: https://www.businesswire.com/news/home/20260323991012/en/Forescout-4D-Platform-Advances-Universal-Zero-Trust-Network-Access-with-Cloud-Native-Agentless-Segmentation?utm_source=chatgpt.com "Forescout 4D Platform™ Advances Universal Zero Trust Network Access with Cloud Native, Agentless Segmentation"
