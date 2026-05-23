@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "knowledge/research/mlops/MLOPs基礎.md",
+                "file": "knowledge/archive/データエンジニアリング.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MLOPs基礎"
+              "title": "データエンジニアリング"
             }
           }
         ]
@@ -206,12 +206,30 @@
   },
   "active": "533fe050349dca5b",
   "lastOpenFiles": [
+    "knowledge/archive/Claude_Code_Playbook.pdf",
+    "knowledge/archive/データエンジニアリング.md",
+    "knowledge/archive/Claude_Code_Harness_Engineering.pdf",
+    "knowledge/archive/AWS_SAA-C03_Visual_Cheat_Sheet.pdf",
+    "knowledge/archive/AI_Agent_Harness_Engineering.pdf",
+    "knowledge/archive/Agentic_Web_Paradigm_Shift.pdf",
+    "knowledge/archive/academic_papers/2026_Realtime-VLA FLASH Speculative Inference Framewor.md",
+    "knowledge/archive/academic_papers/2026_Libra-VLA Achieving Learning Equilibrium via Asyn.md",
+    "knowledge/archive/academic_papers/2026_Cryptographic Registry Provenance Structural Defe.md",
+    "knowledge/archive/academic_papers/2026_Authorization Propagation in Multi-Agent AI System.md",
+    "knowledge/archive/academic_papers/2026_AgentSearchBench A Benchmark for AI Agent Search .md",
+    "knowledge/archive/academic_papers/2026_A Compound AI Agent for Conversational Grant Disco.md",
+    "knowledge/archive/academic_papers/2026_Pedestrian Crossing Intention Prediction Based on .md",
+    "knowledge/research/mlops/MLOPs基礎.md",
+    "knowledge/archive/academic_papers/2026_One Token Per Frame Reconsidering Visual Bandwidt.md",
+    "knowledge/archive/academic_papers/2026_MindVLA-U1 VLA Beats VA with Unified Streaming Ar.md",
+    "knowledge/archive/academic_papers/2026_Kairos A Scalable Serving System for Physical AI.md",
+    "knowledge/archive/academic_papers/2026_Geometry Guided Self-Consistency for Physical AI.md",
+    "knowledge/scripts/move_processed_inbox_to_archive.py",
     "knowledge/research/auto_summaries/pedestrian-crossing-intention-prediction-based-on-cross-modal-motion-query.md",
     "knowledge/scripts/process_unprocessed_inbox.py",
     "knowledge/scripts/check_inbox_by_source.py",
     "knowledge/scripts/check_inbox_processed_relaxed.py",
     "knowledge/scripts/check_inbox_processed.py",
-    "knowledge/scripts/dedupe_summaries.py",
     "knowledge/research/auto_summaries/mindvla-u1-vla-beats-va-with-unified-streaming-architecture-for-autonomous_1.md",
     "knowledge/research/auto_summaries/libra-vla-achieving-learning-equilibrium-via-asynchronous-coarse-to-fine_1.md",
     "knowledge/research/auto_summaries/kairos-a-scalable-serving-system-for-physical-ai_1.md",
@@ -222,25 +240,6 @@
     "knowledge/research/auto_summaries/building-trust-into-ai-systems-inside-nvidia’s-halos-for-physical-ai-safety_1.md",
     "knowledge/research/auto_summaries/ai-hallucinations-as-a-form-of-harm-an-analysis-under-who-guidance-on-ethics_1.md",
     "knowledge/research/auto_summaries/agentsearchbench-a-benchmark-for-ai-agent-search-in-the-wild_1.md",
-    "knowledge/research/auto_summaries/mindvla-u1-vla-beats-va-with-unified-streaming-architecture-for-autonomous.md",
-    "knowledge/research/auto_summaries/libra-vla-achieving-learning-equilibrium-via-asynchronous-coarse-to-fine.md",
-    "knowledge/research/auto_summaries/kairos-a-scalable-serving-system-for-physical-ai.md",
-    "knowledge/research/auto_summaries/flightsense-an-end-to-end-mlops-platform-for-real-time-flight-delay-prediction.md",
-    "knowledge/research/auto_summaries/enabling-adversarial-robustness-in-ai-models-through-kubeflow-mlops.md",
-    "knowledge/research/auto_summaries/effect-transparent-governance-for-ai-workflow-architectures-semantic-preservatio.md",
-    "knowledge/research/auto_summaries/dao-enabled-decentralized-physical-ai-a-new-paradigm-for-human-machine-collabora.md",
-    "knowledge/research/auto_summaries/building-trust-into-ai-systems-inside-nvidia’s-halos-for-physical-ai-safety.md",
-    "knowledge/research/auto_summaries/ai-hallucinations-as-a-form-of-harm-an-analysis-under-who-guidance-on-ethics.md",
-    "knowledge/research/auto_summaries/agentsearchbench-a-benchmark-for-ai-agent-search-in-the-wild.md",
-    "knowledge/scripts/generate_and_convert_summaries.py",
-    "knowledge/scripts/convert_summaries_to_obsidian.py",
-    "knowledge/research/auto_summaries/2026-robust-reliable-ai-predictive-quality-semiconductor-mlops.md",
-    "knowledge/research/auto_summaries/2026-safety-enhanced-drl-autonomous-driving-dsg-drl.md",
-    "knowledge/research/auto_summaries/2026-innuce-research-infrastructure-neuromorphic-mlops.md",
-    "knowledge/research/auto_summaries/2026-role-of-explainability-throughout-mlops-lifecycle.md",
-    "knowledge/research/auto_summaries/2026-the-two-boundaries-behavioral-ai-governance.md",
-    "knowledge/research/auto_summaries",
-    "knowledge/archive/academic_papers/_to_delete_preview",
-    "scripts/preview_delete_unrelated.py"
+    "knowledge/research/auto_summaries/mindvla-u1-vla-beats-va-with-unified-streaming-architecture-for-autonomous.md"
   ]
 }
